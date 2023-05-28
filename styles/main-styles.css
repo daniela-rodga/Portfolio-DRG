@@ -1,0 +1,43 @@
+/* Cascade Styles Configuration for Portfolio */
+
+/* Body set-up */
+body {
+    padding: 0em;  
+    cursor: auto; 
+    margin: 0;
+    height: 100%;
+
+}
+
+/* General Styles for Sections */
+.section {
+    padding: 4em;
+    border-color: transparent;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5em;
+    min-width: 100px;
+    min-height: 180px;
+}
+
+/* Section "About" Styles */
+.section-about {
+    background-color: #FFE0E9;
+    display: flexbox;
+    
+}
+
+/* Sections "Greeting" (some word or phrase that needs to be addressed but not as a title per se) */
+.section-greeting {
+    font-weight: 700;
+    font-size: 2em;
+    padding: 0%;
+}
+
+/* Sections "Author" (whether it's a quote author or the author of this site, for example) */
+.section-autor {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    color: #B9375E;
+    padding: 0%;
+    margin: 0;
+}
