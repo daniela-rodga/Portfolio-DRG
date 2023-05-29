@@ -137,13 +137,16 @@ body {
 .grid-item {
     background-color: transparent;
     padding: 20px;
+    justify-content: center;
+    align-content: center;
 }
 
 /* Size and Style definition for Icons related to skills */
 .icon-skill {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
+    font-size: 5em;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    display: block;
 }
 
 /* "Quote Interlude" styles */
@@ -154,6 +157,7 @@ body {
 /* Styles for the quote itself */
 .quote-content {
     font-size: 1.5em;
+    font-weight: 700;
     color:#FFE0E9;
     display: inline-block;
 }
