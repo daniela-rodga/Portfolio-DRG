@@ -138,8 +138,9 @@ body {
 
 /* Size and Style definition for Icons related to skills */
 .icon-skill {
-    width: 115px;
-    height:115px ;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 
