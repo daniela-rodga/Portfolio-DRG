@@ -106,6 +106,7 @@ body {
 /* Section "Skills" */
 .section-skills {
     background-color: white;
+    
 }
 
 /* Sections title */
@@ -118,26 +119,29 @@ body {
 /* Title for section "Skills" */
 .skills-title {
     color: #B9375E;
-    
+}
+
+/* Grid for skills definition */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 10px; 
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-item {
+    background-color: transparent;
+    padding: 20px;
 }
 
 /* Size and Style definition for Icons related to skills */
 .icon-skill {
-    width: fit-content;
-    height: fit-content;
+    width: 115px;
+    height:115px ;
 }
 
-/* 
-Grid container for 2 x 1
-.grid-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: auto; 
-    gap: 10px; 
-}
-
-.grid-element-md2 {
-    grid-row: 1 /4;
-} */
 
 
 
