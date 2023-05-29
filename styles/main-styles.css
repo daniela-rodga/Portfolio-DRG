@@ -19,6 +19,7 @@ body {
     max-width: 100%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Section "About" Styles */
