@@ -6,6 +6,7 @@ body {
     cursor: auto; 
     margin: 0;
     height: 100%;
+    min-height: 100vh;
 
 }
 
@@ -16,6 +17,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1em;
     max-width: 100%;
+    height: auto;
     display: flex;
 }
 
@@ -41,9 +43,11 @@ body {
     margin: 0;
 }
 
+/* Sections "Description"(a little text describing what it's this about)  */
 .section-description {
     word-wrap: break-word;
     font-size: 1.5rem;
+    flex-direction: column;
 }
 
 /* Sections "Principal Image" always related with the head of the section*/
@@ -51,6 +55,7 @@ body {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+    display: flexbox;
 }
 
 /* Button specifications to meet the aesthetic of the web site*/
@@ -77,7 +82,6 @@ body {
 .btn-secondary {
     background-color: #FFE0E9;
     color: #B9375E;
-    
 }
 
 /* Size and Style definition for Icons related to skills */
@@ -85,7 +89,17 @@ body {
     width: fit-content;
     height: fit-content;
 }
+/* 
+Grid container for 2 x 1
+.grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: auto; 
+    gap: 10px; 
+}
 
-/* .flex-container {
-
+.grid-element-md2 {
+    grid-row: 1 /4;
 } */
+
+
+
