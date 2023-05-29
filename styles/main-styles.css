@@ -24,13 +24,14 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 /* Section "About" Styles */
 .section-about {
     background-color: #FFE0E9;
     text-align: left;
-    justify-content: left;
+    
 }
 
 /* Sections "Greeting" (some word or phrase that needs to be addressed but not as a title per se) */
@@ -96,16 +97,13 @@ body {
     color: #B9375E;
 }
 
-/* Flex container that simulates a 2 column table*/
-.flex-container-md2 {
+/* Flex container */
+.flex-container {
     display: flex;
-    width: 50%;
 }
 
-.flex-column-element {
+.element-row {
     flex: 1;
-    border: 2px #FFE0E9;
-    margin: 10px;
 }
 
 /* Section "Skills" */
