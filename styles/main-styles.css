@@ -5,9 +5,9 @@ body {
     padding: 0em;  
     cursor: auto; 
     margin: 0;
-    height: 100%;
     min-height: 100vh;
-
+    display:flex;
+    flex-direction: column;
 }
 
 /* General Styles for Sections */
@@ -16,23 +16,24 @@ body {
     border-color: 3px transparent;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1em;
+    width: 100%;
     max-width: 100%;
-    height: auto;
-    display: flex;
+    box-sizing: border-box;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 /* Section "About" Styles */
 .section-about {
     background-color: #FFE0E9;
-    
+    text-align: left;
 }
 
 /* Sections "Greeting" (some word or phrase that needs to be addressed but not as a title per se) */
 .section-greeting {
     font-weight: 700;
     font-size: 2rem;
-    padding: 0%;    
+    padding: 0%;   
 }
 
 /* Sections "Author" (whether it's a quote author or the author of this site, for example) */
@@ -54,9 +55,11 @@ body {
 /* Sections "Principal Image" always related with the head of the section*/
 .section-image {
     max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
-    display: flexbox;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Button specifications to meet the aesthetic of the web site*/
@@ -68,9 +71,12 @@ body {
     text-decoration: none;
     font-family: 'Noto Color Emoji', sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-shadow: 1px 1px 5px black;
     display: inline-block;
+    width: 15%;
+    object-fit: cover;
+    cursor: pointer;
 }
 
 /* Primary is set to main color of the palette which is #B9375E */
@@ -85,11 +91,42 @@ body {
     color: #B9375E;
 }
 
+/* Flex container that simulates a 2 column table*/
+.flex-container-md2 {
+    display: flex;
+    width: 50%;
+}
+
+.flex-column-element {
+    flex: 1;
+    border: 2px #FFE0E9;
+    margin: 10px;
+}
+
+/* Section "Skills" */
+.section-skills {
+    background-color: white;
+}
+
+/* Sections title */
+.section-title {
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0%;   
+}
+
+/* Title for section "Skills" */
+.skills-title {
+    color: #B9375E;
+    
+}
+
 /* Size and Style definition for Icons related to skills */
 .icon-skill {
     width: fit-content;
     height: fit-content;
 }
+
 /* 
 Grid container for 2 x 1
 .grid-container {
