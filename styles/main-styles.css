@@ -143,6 +143,26 @@ body {
     height: auto;
 }
 
+/* "Quote Interlude" styles */
+.quote {
+    background-color: #B9375E;
+}
+
+/* Styles for the quote itself */
+.quote-content {
+    font-size: 1.5em;
+    color:#FFE0E9;
+    display: inline-block;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Styles for the name of the autor of the quote */
+.quote-autor {
+    font-size: 2em;
+    color: black;
+    text-shadow: 1px 1px 2px #FFE0E9;
+}
+
 
 
 
