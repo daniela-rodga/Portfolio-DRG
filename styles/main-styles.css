@@ -216,4 +216,6 @@ a:link {
 }
 
 /* Styles for the containers for the "Contact me" section */
-
+.section-contact {
+    background-color: white;
+}
