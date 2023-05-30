@@ -156,13 +156,13 @@ a:link {
     align-content: center;
 }
 
-.grid-skill {
+.grid {
     background-color: #F2F2F2;
     border: 1px solid #3F3D56;
     border-radius: 5px;
 }
 
-.grid-skill:hover {
+.grid:hover {
     border: 1px solid #B9375E;
     border-radius: 5px;
 }
