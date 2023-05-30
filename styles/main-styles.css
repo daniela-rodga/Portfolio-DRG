@@ -97,6 +97,20 @@ body {
     color: #B9375E;
 }
 
+/* Styles for the Hyperlinks */
+
+/* Hyperlink not visited */
+a:link {
+    color: #FFE0E9;
+    text-decoration: none;
+  }
+  
+  /* Hyperlink visited */
+  a:visited {
+    color: #FFE0E9;
+    text-decoration: none;
+  }
+
 /* Flex container */
 .flex-container {
     display: flex;
@@ -165,6 +179,8 @@ body {
 /* "Quote Interlude" styles */
 .quote {
     background-color: #B9375E;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
 }
 
 /* Styles for the quote itself */
