@@ -53,7 +53,7 @@ body {
 /* Sections "Description"(a little text describing what it's this about)  */
 .section-description {
     word-wrap: break-word;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     flex-direction: column;
 }
 
@@ -135,7 +135,7 @@ a:link {
     color:#B9375E;
 }
 
-/* Grid for skills definition */
+/* Grid for skills/projects definition */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -143,6 +143,7 @@ a:link {
     gap: 20px; 
     justify-content: center;
     align-content: center;
+    padding: 20rem;
 }
 
 .grid-item {
@@ -210,12 +211,25 @@ a:link {
 .img-project {
     max-width: 100%;
     max-height: 100%;
-    width: 15em;
-    height: 15em;
+    width: 10em;
+    height: 10em;
     margin: auto;
 }
 
-/* Styles for the containers for the "Contact me" section */
+/* Styles for the section "Contact" */
 .section-contact {
     background-color: white;
+    align-content: center;
+    justify-content: center;
 }
+
+/* Styles for the containers for the "Contact me" section */
+.container-contact {
+    background-color: #F2F2F2;
+    border: 1px solid #B9375E;
+    border-radius: 5px;
+    width: 55%;
+    height: 55%;
+}
+
+
