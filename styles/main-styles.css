@@ -1,4 +1,7 @@
 /* Cascade Styles Configuration for Portfolio */
+* {
+    box-sizing:content-box;
+}
 
 /* Body set-up */
 body {
