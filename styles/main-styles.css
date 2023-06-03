@@ -235,4 +235,16 @@ a:link {
     height: 55%;
 }
 
+/* Styles for the lists used in the document */
+.vertical-list {
+    list-style-type: none;
+}
 
+.horizontal-list {
+    list-style-type: none;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
