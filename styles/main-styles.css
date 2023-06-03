@@ -76,17 +76,18 @@ body {
 .btn {
     border-style: none;
     padding: 15px;
-    border-radius: 12px;
+    border-radius: 25px;
     text-align: center;
     text-decoration: none;
     font-family: 'Noto Color Emoji', sans-serif;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1em;
     text-shadow: 1px 1px 5px black;
     display: inline-block;
-    width: 15%;
+    width: 30%;
     object-fit: cover;
     cursor: pointer;
+    margin-top: 25px;
 }
 
 /* Primary is set to main color of the palette which is #B9375E */
@@ -117,13 +118,14 @@ a:visited {
 /* Flex container */
 .flex-container {
     display: flex;
-    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 /* Elements that are expected to be displayed in a row */
 .element-row {
     flex: 1;
-    text-align: left;
+    text-align: justify;
 }
 
 /* Section "Skills" */
@@ -135,7 +137,7 @@ a:visited {
 /* Sections title */
 .section-title {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 0%;   
     color:#B9375E;
 }
@@ -236,6 +238,7 @@ a:visited {
     border-radius: 5px;
     width: 55%;
     height: 55%;
+    align-content: center;
 }
 
 /* Styles for the lists used in the document */
@@ -272,3 +275,15 @@ a:visited {
 .fa-solid:hover {
     color: #B9375E;
 }
+
+/* Styles specificly for the titles of the contact-me section */
+.contact-title {
+    padding-left: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-description {
+    padding-left: 2.5em;
+    margin-top: 0;
+}
+
