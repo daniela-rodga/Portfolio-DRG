@@ -263,10 +263,13 @@ a:visited {
 /* Styles for the username for social media icons */
 .social-media-user {
     display: inline;
-    margin: 2px;
+    margin: 15px
 }
 
 /* Styles for the pseudo-classes of Font Awesome */
+.fa-brands{
+    font-size: 1.5em;
+}
 
 .fa-brands:hover {
     color: #B9375E;
