@@ -6,9 +6,9 @@
 /* Navigation bar (navbar) styles */
 .navbar {
     top: 0;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 26%;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 21%;
     display: flex;
     justify-content: flex-end;
     box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.15);
@@ -22,7 +22,6 @@
     padding-left: 1em;
     padding-right: 1em;
     background-color: #B9375E;
-    color: #F2F2F2;
     border-radius: 25px;
 }
 
@@ -32,15 +31,16 @@
     padding-left: 1em;
     padding-right: 1em;
     background-color: #E05780;
-    color: #F2F2F2;
     border-radius: 25px;
-    transition-duration: 200ms;
-    
-    
+    transition-duration: 200ms;    
 }
 
-.navbar-item-secondary:hover {
-
+.navbar-item-secondary {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 25px;
 }
 
 /* Body set-up */
@@ -312,6 +312,15 @@ a:visited {
 .horizontal-list li {
     display: inline-block;
     margin-right: 2.5em;
+}
+
+.horizontal-list .navbar-item-primary a {
+    color: #F2F2F2;
+}
+
+.horizontal-list .navbar-item-secondary a:hover {
+    color: #B9375E;
+    transition-duration: 200ms;
 }
 
 /* Styles for the username for social media icons */
