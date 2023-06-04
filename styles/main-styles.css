@@ -106,20 +106,21 @@ body {
 
 /* Hyperlink not visited */
 a:link {
-    color: #FFE0E9;
+    color: black;
     text-decoration: none;
 }
+
   /* Hyperlink visited */
 a:visited {
-    color: #FFE0E9;
+    color: black;
     text-decoration: none;
 }
 
 /* Flex container */
 .flex-container {
     display: flex;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 /* Elements that are expected to be displayed in a row */
@@ -264,26 +265,24 @@ a:visited {
 /* Styles for the username for social media icons */
 .social-media-user {
     display: inline;
+    margin-left: 10px;
 }
 
 /* Styles for the pseudo-classes of hte contact-me section icons from Font Awesome */
 .social-media-icon {
-    /* margin: auto; */
     max-width: 100%;
     width: 20px;
     height: auto;
     font-size: 1.3em;
     color: #B9375E;
     padding: 7px;
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     transition-duration: 500ms;
     border-radius: 50%;
 }
 
-.social-media-icon:hover {
+/* Trigger when Hovers over social-media-icon or social-media-user */
+.social-media-link:hover .social-media-icon {
     color: #F2F2F2;
     background-color: #B9375E;
     padding: 7px;
@@ -292,7 +291,7 @@ a:visited {
     transition-duration: 500ms;
 }
 
-.social-media-icon:hover + .social-media-user {
+.social-media-link:hover .social-media-user {
     color: #B9375E;
     transition-duration: 500ms;
 }
