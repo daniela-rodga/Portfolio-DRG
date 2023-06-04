@@ -122,7 +122,7 @@ body {
     align-items: center;
 }
 
-/* Button specifications to meet the aesthetic of the web site*/
+/* Button specifications to meet the aesthetic of the web site */
 .btn {
     border-style: none;
     padding: 15px;
@@ -137,18 +137,18 @@ body {
     object-fit: cover;
     cursor: pointer;
     margin-top: 25px;
+    background: #B9375E;
+    color: white;
 }
 
-/* Primary is set to main color of the palette which is #B9375E */
-.btn-primary {
-    background-color: #B9375E;
-    color: #FFE0E9;
+/* Primary is set when a button contains a link */
+.btn .btn-primary {
+    color: white;
 }
 
-/* Secondary is set to second-main color of the palette which is #FFE0E9 */
-.btn-secondary {
-    background-color: #FFE0E9;
-    color: #B9375E;
+.btn:hover {
+    background-color: #E05780;
+    transition-duration: 200ms;
 }
 
 /* Styles for the Hyperlinks */
@@ -194,6 +194,11 @@ a:visited {
     
 }
 
+.skills-description {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
 /* Sections title */
 .section-title {
     font-weight: 700;
@@ -206,11 +211,12 @@ a:visited {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    grid-template-rows: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
     gap: 20px; 
     justify-content: center;
     align-content: center;
     margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 .grid-item {
@@ -252,8 +258,8 @@ a:visited {
 /* "Quote Interlude" styles */
 .quote {
     background-color: #B9375E;
-    padding-top: 3.5em;
-    padding-bottom: 3.5em;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
 }
 
 /* Styles for the quote itself */
@@ -262,6 +268,8 @@ a:visited {
     font-weight: 700;
     color:#FFE0E9;
     display: inline-block;
+    padding-left: 20em;
+    padding-right: 20em;
 }
 
 /* Styles for the name of the autor of the quote */
@@ -271,9 +279,22 @@ a:visited {
     text-shadow: 1px 1px 2px #FFE0E9;
 }
 
+/* Changing font-sizes for the quoting left-quoting right icons */
+.quoting-left {
+    font-size: 5em;
+}
+
+.quoting-right {
+    font-size: 5em;
+}
+
 /* Section "My projects"styles */
 .section-projects {
     background-color: #FFE0E9;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    padding-left: 25em;
+    padding-right: 25em;
 }
 
 /* Styles for images in the "My Projects" section */
