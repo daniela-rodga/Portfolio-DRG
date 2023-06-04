@@ -249,6 +249,7 @@ a:visited {
 .vertical-list li{
     text-align: left;
     margin: 10px;
+    /* display: block; */
 }
 
 .horizontal-list {
@@ -263,26 +264,43 @@ a:visited {
 /* Styles for the username for social media icons */
 .social-media-user {
     display: inline;
-    margin: 15px
 }
 
-/* Styles for the pseudo-classes of Font Awesome */
-.fa-brands{
-    font-size: 1.5em;
-}
-
-.fa-brands:hover {
+/* Styles for the pseudo-classes of hte contact-me section icons from Font Awesome */
+.social-media-icon {
+    /* margin: auto; */
+    max-width: 100%;
+    width: 20px;
+    height: auto;
+    font-size: 1.3em;
     color: #B9375E;
+    padding: 7px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 500ms;
+    border-radius: 50%;
 }
 
-.fa-solid:hover {
+.social-media-icon:hover {
+    color: #F2F2F2;
+    background-color: #B9375E;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.social-media-icon:hover + .social-media-user {
     color: #B9375E;
+    transition-duration: 500ms;
 }
 
 /* Styles specificly for the titles of the contact-me section */
 .contact-title {
     padding-left: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .contact-description {
