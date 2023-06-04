@@ -297,6 +297,12 @@ a:visited {
     padding-right: 25em;
 }
 
+/* Styles for the Projects description */
+.projects-description {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
 /* Styles for images in the "My Projects" section */
 .img-project {
     max-width: 100%;
