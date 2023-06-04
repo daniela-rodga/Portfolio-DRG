@@ -136,7 +136,7 @@ body {
     width: 40%;
     object-fit: cover;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 0.5em;
     background: #B9375E;
     color: white;
 }
@@ -400,5 +400,37 @@ a:visited {
 .contact-description {
     padding-left: 2.5em;
     margin-top: 0;
+    margin-left: 0;
+}
+
+/* Styles for the form of the Contact section */
+.contact-form {
+    padding-right: 2.5em;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.form-input {
+    margin-top: 0.5em;
+    border-radius: 20px;
+    border-color: transparent;
+    height: 2em;
+    width: auto;
+}
+
+.form-textarea {
+    margin-top: 0.5em;
+    border-radius: 20px;
+    border-color: transparent;
+    height: 13em;
+    width: auto;
 }
 
