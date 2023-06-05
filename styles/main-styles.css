@@ -77,8 +77,8 @@ body {
     background-color: #FFE0E9;
     align-content: center;
     text-align: left;
-    padding-top: 15em;
-    padding-bottom: 15em;
+    padding-top: 17.5em;
+    padding-bottom: 17.5em;
     padding-left: 25em;
     padding-right: 25em;
 
@@ -315,6 +315,10 @@ a:visited {
     background-color: white;
     align-content: center;
     justify-content: center;
+    padding-top: 13em;
+    padding-bottom: 8em;
+    padding-left: 23em;
+    padding-right: 23em;
 }
 
 /* Styles for the containers for the "Contact me" section */
@@ -322,8 +326,8 @@ a:visited {
     background-color: #F2F2F2;
     border: 1px solid #B9375E;
     border-radius: 5px;
-    width: 55%;
-    height: 55%;
+    /* width: 55%;
+    height: 55%; */
     align-content: center;
 }
 
