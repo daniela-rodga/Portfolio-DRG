@@ -106,7 +106,7 @@ body {
 /* Sections "Description"(a little text describing what it's this about)  */
 .section-description {
     word-wrap: break-word;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     flex-direction: column;
     margin-top: 0.5em;
 }
