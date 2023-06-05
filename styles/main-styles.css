@@ -173,15 +173,13 @@ a:visited {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     align-content: center;
 }
 
 /* Elements that are expected to be displayed in a row */
 .element-row {
     flex: 1;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 
 /* Section "Skills" */
@@ -345,7 +343,7 @@ a:visited {
 
 .horizontal-list li {
     display: inline-block;
-    margin-right: 2.5em;
+    margin-right: 1.5em;
 }
 
 .horizontal-list .navbar-item-primary a {
@@ -456,4 +454,64 @@ a:visited {
     box-shadow: 0 0 10px 0 #E05780;
     outline: 0;
 }
+
+/* Styles for the footer section of the website */
+
+/* the footer is flex so that allows align the content to the center */
+.footer-flex {
+    background-color: #B9375E;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Styles for every list item (in a horizontal list) that belongs to the footer links */
+.footer-nav-item {
+    padding: 0;
+    margin-bottom: 1em;
+    
+}
+
+/* Styles for every list item that has a link */
+.footer-nav-item a {
+    color: white;
+}
+
+/* Styles for the username for social media icons in the footer */
+.fo-social-media-user {
+    display: inline;
+    margin-left: 10px;
+}
+
+/* Styles for the pseudo-classes of hte contact-me section icons from Font Awesome in the footer */
+.fo-social-media-icon {
+    max-width: 100%;
+    width: 20px;
+    height: auto;
+    font-size: 1.3em;
+    background-color: white;
+    padding: 7px;
+    text-align: center;
+    transition-duration: 500ms;
+    border-radius: 50%;
+    border: 1px white;
+}
+
+/* Trigger when Hovers over social-media-icon or social-media-user in the footer*/
+.fo-social-media-link:hover .fo-social-media-icon {
+    color: #F2F2F2;
+    background-color: #B9375E;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.fo-social-media-link:hover .fo-social-media-user {
+    color: #B9375E;
+    transition-duration: 500ms;
+}
+
 
