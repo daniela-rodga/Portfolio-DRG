@@ -438,9 +438,9 @@ a:visited {
     outline: 0;
 } 
 
-.form-input:valid {
+/* .form-input:valid {
     border: 1px solid green;
-}
+} */
 
 .form-textarea {
     margin-top: 0.5em;
