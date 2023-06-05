@@ -434,7 +434,12 @@ a:visited {
 
 .form-input:focus {
     transition-duration: 200ms;
-    border: 5px #B9375E;
+    box-shadow: 0 0 10px 0 #E05780;
+    outline: 0;
+} 
+
+.form-input:valid {
+    border: 1px solid green;
 }
 
 .form-textarea {
@@ -444,5 +449,11 @@ a:visited {
     height: 13em;
     width: auto;
     padding: 15px;
+}
+
+.form-textarea:focus {
+    transition-duration: 200ms;
+    box-shadow: 0 0 10px 0 #E05780;
+    outline: 0;
 }
 
