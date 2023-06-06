@@ -176,18 +176,15 @@ a:visited {
 
 /* Section "Skills" */
 .section-skills {
+    flex-direction: column;
     background-color: white;
-    padding-top: 7em;
-    padding-bottom: 7em;
-    padding-left: 25em;
-    padding-right: 25em;
-    
+    align-items: center;
+    justify-content: center;    
 }
 
 .skills-description {
-    padding-left: 20em;
-    padding-right: 20em;
-}
+    max-width: 20em;
+} 
 
 /* Sections title */
 .section-title {
@@ -531,9 +528,8 @@ a:visited {
     }
 }
 
-/* Sections */
+/* Sections media queries */
 @media (max-width: 1100px) {
-
     .section {
         overflow: hidden; 
         width: 100vw; 
@@ -543,22 +539,20 @@ a:visited {
         flex-direction: column;
         padding: 0;
     }
-     .element-row {
+    .element-row {
         align-items: center;
         justify-content: center;
         text-align: center;
         padding: 0;
     } 
     .section-description {
-        /* margin-top: 0.2em;
-        margin-bottom: 0.5em; */
-
+        margin-top: 1em;
+        margin-bottom: 1.2em;
     } 
-    /*
+    
     .section-image {
-        margin-top: 0.8em;
-    } */
-
+        margin-top: 1.2em;
+    }
 
 }
 
